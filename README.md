@@ -4,7 +4,9 @@ Python Crypto using PyCryptodome
 from Cryptodome.PublicKey import RSA
 
 secret_code = "Unguessable"
+
 key = RSA.generate(2048)
+
 encrypted_key = key.export_key(passphrase=secret_code, pkcs=8,
                               protection="scryptAndAES128-CBC")
 
