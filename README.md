@@ -1,12 +1,13 @@
 # Python-Crypto
 Python Crypto using PyCryptodome 
 # install PyCryptodome
-`$ sudo apt-get install build-essential libgmp3-dev python3-dev`
+``` 
+$ sudo apt-get install build-essential libgmp3-dev python3-dev
 
-`$ pip install pycryptodomex`
+$ pip install pycryptodomex
 
-`$ python3 -m Cryptodome.SelfTest`
-
+$ python3 -m Cryptodome.SelfTest
+``` 
 # Example.......
 ``` 
 from Cryptodome.PublicKey import RSA
