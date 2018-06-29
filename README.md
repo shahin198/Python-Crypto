@@ -8,7 +8,8 @@ Python Crypto using PyCryptodome
 `$ python3 -m Cryptodome.SelfTest`
 
 # Example.......
-```from Cryptodome.PublicKey import RSA
+``` 
+from Cryptodome.PublicKey import RSA
 
 secret_code = "Unguessable"
 
@@ -22,6 +23,8 @@ file_out.write(encrypted_key)
 
 print(key.publickey().export_key())
 
-print("private key: ",key.export_key())```
+print("private key: ",key.export_key()) 
+
+```
 
 
