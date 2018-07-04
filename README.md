@@ -1,5 +1,6 @@
 # Python-Crypto
 Python Crypto using PyCryptodome 
+https://media.readthedocs.org/pdf/pycryptodome/latest/pycryptodome.pdf
 # install PyCryptodome
 ``` 
 $ sudo apt-get install build-essential libgmp3-dev python3-dev
