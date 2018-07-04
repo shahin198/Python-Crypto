@@ -58,7 +58,7 @@ result:
 {"iv": "JAkWrF8CbKNeFT6wM/yRxQ==", "ciphertext": "9eK8c/hQb5QLgSedYh+Hgw=="}
 The message was:  b'secret'
 ```
-# Example.......
+# Asymmetrical Encryption
 ``` 
 from Cryptodome.PublicKey import RSA
 
